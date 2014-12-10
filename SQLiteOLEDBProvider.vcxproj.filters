@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5bda4386-bee1-4ed0-9361-8a2fb5bc92e7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ca3fbaaf-1add-462d-858b-968b5f9fced7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1ac62370-9538-47ee-9aa0-5ffcd0d245ca}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="SQLiteOLEDB">
+      <UniqueIdentifier>{34bf7b18-d368-4023-87c0-6a4744cddc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLiteDB">
+      <UniqueIdentifier>{9571982e-fd93-41f5-82a1-253ecbed477b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{e2d06122-442e-4f4b-b5d1-ff57979d3b12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SQLiteOLEDBProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>SQLiteDB</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="vbscript.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="SQLiteOLEDBProvider.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteOLEDB.h">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>SQLiteDB</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3ext.h">
+      <Filter>SQLiteDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteDataSource.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteSession.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCommand.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteRowset.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteColumnsRowset.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteRowsetRow.hpp">
+      <Filter>SQLiteOLEDB</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="vbscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atldb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SQLiteOLEDBProvider.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SQLiteOLEDB.rgs">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SQLiteOLEDBProvider.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
