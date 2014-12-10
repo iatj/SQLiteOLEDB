@@ -30,3 +30,8 @@
 *.sdf
 *.suo
 *.ipch
+
+!/Release/SQLiteOLEDBProvider.dll
+!/Debug/SQLiteOLEDBProvider.dll
+!.gitignore
+
