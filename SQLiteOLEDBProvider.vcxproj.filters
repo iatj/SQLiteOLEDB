@@ -98,7 +98,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
+    <None Include="README.md" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SQLiteOLEDBProvider.rc">

@@ -35,3 +35,4 @@
 !/Debug/SQLiteOLEDBProvider.dll
 !.gitignore
 
+*.opensdf
